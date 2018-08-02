@@ -1,0 +1,18 @@
+package design_pattern_study.patterns.Structural.adapter;
+
+import design_pattern_study.patterns.Structural.adapter.iterf.AdvancedMediaPlayer;
+
+/**
+ * @author by Wangshuo5 on 2018/4/24
+ */
+public class VlcPlayer implements AdvancedMediaPlayer {
+    @Override
+    public void playVlc(String fileName) {
+        System.out.println("Playing vlc file.Name: "+fileName);
+    }
+
+    @Override
+    public void playMp4(String fileName) {
+
+    }
+}
